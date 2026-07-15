@@ -1,4 +1,4 @@
- ☕ Coffee Shop Sales Dashboard
+ #☕ Coffee Shop Sales Dashboard
 
 Interactive sales dashboard built using **Google Looker Studio** to monitor coffee shop business performance through sales KPIs, product analysis, and sales trends.
 
