@@ -17,7 +17,6 @@ Mathematics graduate from Universitas Airlangga specializing in Data Analytics a
 
 - Sales Performance Dashboard
 - Supply Chain Dashboard
-- Coffee Shop Dashboard
+- Sales Analysis
 - Customer Segmentation
-- Maritime Safety Prediction
-- Upwelling Prediction
+- Invoice Verification Billing Dashboard
