@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customer Segmentation Dashboard (RFM + K-Means)</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js & PapaParse CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-left">
+      <div class="navbar-title">Customer Segmentation Dashboard by A25-CS273</div>
+      <div class="navbar-sub">RFM Analysis + K-Means Clustering</div>
+    </div>
+    <nav class="navbar-right">
+      <button class="nav-btn active" data-page="overview">Overview</button>
+      <button class="nav-btn" data-page="dataset">Dataset</button>
+      <button class="nav-btn" data-page="clustering">Clustering</button>
+      <button class="nav-btn" data-page="insights">Segments & Insights</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- ================== PAGE: OVERVIEW ================== -->
+    <section id="page-overview" class="page active">
+      <section class="kpi-grid">
+        <div class="card">
+          <div class="card-header">Total Customers</div>
+          <div class="card-value" id="kpi-customers">-</div>
+          <div class="card-subtext">Unique customers in the dataset</div>
+        </div>
+        <div class="card">
+          <div class="card-header">Total Revenue</div>
+          <div class="card-value" id="kpi-revenue">-</div>
+          <div class="card-subtext">Sum of Monetary (RFM) across customers</div>
+        </div>
+        <div class="card">
+          <div class="card-header">Avg Monetary / Customer</div>
+          <div class="card-value" id="kpi-avg-monetary">-</div>
+          <div class="card-subtext">Average spending per customer</div>
+        </div>
+        <div class="card">
+          <div class="card-header">Number of Clusters</div>
+          <div class="card-value" id="kpi-clusters">-</div>
+          <div class="card-subtext">K-Means segments</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-header">
+          <div>
+            <div class="section-title">
+              <span class="icon"></span>
+              Distribution of Customers & Revenue
+            </div>
+            <div class="section-subtitle">
+              Jumlah pelanggan dan kontribusi revenue untuk setiap cluster.
+            </div>
+          </div>
+          <div class="filter-control">
+            <span>Focus Segment:</span>
+            <select id="segmentFilter">
+              <option value="ALL">All Segments</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="chart-container">
+            <canvas id="customersChart"></canvas>
+          </div>
+          <div class="chart-container">
+            <canvas id="revenueChart"></canvas>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================== PAGE: DATASET ================== -->
+    <section id="page-dataset" class="page">
+      <section class="card">
+        <div class="section-title">
+          <span class="icon"></span>
+          Dataset RFM + Cluster
+        </div>
+        <div class="section-subtitle">
+          Pratinjau data hasil pengolahan RFM dan hasil clustering. Ditampilkan 50 baris pertama.
+        </div>
+
+        <div class="table-wrapper">
+          <table id="datasetTable">
+            <thead>
+              <tr id="datasetHeaderRow">
+                <!-- filled by JS -->
+              </tr>
+            </thead>
+            <tbody id="datasetBody">
+              <!-- filled by JS -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================== PAGE: CLUSTERING ================== -->
+    <section id="page-clustering" class="page">
+      <section class="card">
+        <div class="section-title">
+          <span class="icon"></span>
+          RFM Profile per Cluster
+        </div>
+        <div class="section-subtitle">
+          Rata-rata Recency (hari), Frequency (jumlah transaksi), dan Monetary (nilai belanja) per cluster.
+        </div>
+        <div class="chart-container">
+          <canvas id="rfmChart"></canvas>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-title">
+          <span class="icon"></span>
+          Ringkasan Statistik per Cluster
+        </div>
+        <div class="table-wrapper">
+          <table id="clusterSummaryTable">
+            <thead>
+              <tr>
+                <th>Cluster</th>
+                <th>Segment</th>
+                <th># Customers</th>
+                <th>Total Revenue</th>
+                <th>Avg Recency</th>
+                <th>Avg Frequency</th>
+                <th>Avg Monetary</th>
+              </tr>
+            </thead>
+            <tbody id="clusterSummaryBody">
+              <!-- filled by JS -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <!-- ================== PAGE: INSIGHTS ================== -->
+    <section id="page-insights" class="page">
+      <section class="card">
+        <div class="section-title">
+          <span class="icon"></span>
+          Business Insights per Segment
+        </div>
+        <div class="section-subtitle">
+          Interpretasi hasil segmentasi dan rekomendasi strategi pemasaran untuk tiap segmen.
+        </div>
+
+        <div class="insight-grid" id="insightGrid">
+          <!-- cards diisi dari JS -->
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
