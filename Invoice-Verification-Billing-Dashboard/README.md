@@ -88,6 +88,7 @@ The project includes:
 ---
 
 ## 📷 Dashboard Preview
+<img width="916" height="663" alt="image" src="https://github.com/user-attachments/assets/e4fdaa60-2826-4e33-bfbd-75b1fc038eb0" />
 
 
 ---
