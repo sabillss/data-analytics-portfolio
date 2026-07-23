@@ -1,5 +1,16 @@
 # ☕ Coffee Shop Sales & Spatial Analytics Dashboard
 
+## 🛠️ Project Workflow
+
+Proyek ini dikerjakan melalui beberapa tahapan analisis data secara end-to-end, mulai dari pengolahan data hingga visualisasi dashboard.
+
+| Tahapan | Tools | Deskripsi |
+|---------|-------|-----------|
+| **Data Cleaning** | Microsoft Excel | Melakukan pemeriksaan kualitas data, menghapus data duplikat, memeriksa missing values, mengubah format data, membuat kolom Revenue, serta menambahkan koordinat Latitude dan Longitude menggunakan XLOOKUP. |
+| **Data Analysis** | SQLite | Melakukan analisis data menggunakan SQL untuk menghitung KPI, menganalisis performa penjualan, produk, outlet, serta tren penjualan berdasarkan waktu. |
+| **Spatial Analysis** | Python | Memvisualisasikan lokasi setiap outlet menggunakan koordinat geografis dan menganalisis distribusi revenue berdasarkan lokasi (Spatial Analysis). |
+| **Dashboard Development** | Power BI | Membangun dashboard interaktif yang menyajikan KPI, tren penjualan, performa outlet, performa produk, analisis spasial, serta fitur filter interaktif untuk mendukung pengambilan keputusan bisnis. |
+
 ## 📌 Business Problem
 
 Coffee shop memiliki beberapa outlet di wilayah New York, namun belum memiliki dashboard yang mampu memberikan gambaran menyeluruh mengenai performa bisnis. Oleh karena itu, diperlukan analisis untuk menjawab beberapa pertanyaan berikut:
