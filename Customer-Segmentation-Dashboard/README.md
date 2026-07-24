@@ -92,17 +92,3 @@ Dashboard memungkinkan pengguna mengeksplorasi karakteristik setiap segmen pelan
 > <img width="916" height="507" alt="image" src="https://github.com/user-attachments/assets/85595f15-f78d-459b-9b78-1d24f8e40401" />
 
 
----
-
-
-## 🚀 Business Impact
-
-This dashboard helps businesses to:
-
-- Understand customer purchasing behavior
-- Identify high-value customers
-- Improve customer retention strategies
-- Personalize marketing campaigns
-- Support data-driven business decisions
-
----
