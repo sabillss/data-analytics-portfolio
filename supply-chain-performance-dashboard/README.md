@@ -99,10 +99,6 @@ Dashboard menyediakan berbagai informasi penting, antara lain:
 
 ## 📷 Dashboard Preview
 
-![Dashboard Preview](images/dashboard.png)
-
-## 📷 Dashboard Preview
-
 <img width="761" height="422" alt="image" src="https://github.com/user-attachments/assets/5393e2dc-a780-49b9-84e5-e3c887f3f182" />
 
 
