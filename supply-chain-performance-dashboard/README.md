@@ -1,51 +1,87 @@
 # 📦 Supply Chain Performance Dashboard
 
-An interactive **Power BI dashboard** developed to monitor supply chain performance, evaluate shipping efficiency, analyze sales trends, and support data-driven business decisions using the **DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS** dataset.
+## 📖 Project Overview
+
+Proyek ini merupakan dashboard interaktif yang dikembangkan menggunakan **Power BI** untuk memonitor performa supply chain, mengevaluasi efisiensi pengiriman, menganalisis profitabilitas produk, serta memantau tren penjualan. Data dipersiapkan menggunakan **Microsoft Excel**, kemudian divisualisasikan melalui Power BI agar proses monitoring operasional menjadi lebih mudah dan mendukung pengambilan keputusan berbasis data.
 
 ---
 
-## 📌 Project Overview
+## 🛠️ Project Workflow
 
-Supply chain management plays a crucial role in ensuring efficient product delivery and maintaining customer satisfaction. This dashboard provides an interactive visualization of sales performance, shipping efficiency, delivery risks, and profitability, enabling stakeholders to monitor operations and identify areas for improvement.
-
----
-
-## 🎯 Business Problem
-
-Supply chain operations often encounter several challenges, including:
-
-- Frequent shipping delays
-- Inconsistent delivery performance
-- Difficulty identifying top-performing regions and product categories
-- Limited real-time operational monitoring
-
-These challenges make it difficult for businesses to evaluate operational performance and make timely, data-driven decisions.
+| Tahapan | Tools | Deskripsi |
+|---------|-------|-----------|
+| Data Cleaning | Microsoft Excel | Membersihkan data, memeriksa data duplikat, memastikan konsistensi format, serta menyiapkan dataset untuk proses analisis. |
+| Data Preparation | Microsoft Excel | Menyiapkan data supply chain, melakukan perhitungan yang diperlukan, serta memastikan data siap digunakan di Power BI. |
+| Data Modeling | Power BI | Membangun model data, membuat KPI, serta melakukan perhitungan menggunakan DAX untuk analisis supply chain. |
+| Dashboard Development | Power BI | Mengembangkan dashboard interaktif menggunakan KPI Cards, Charts, dan Slicers untuk memvisualisasikan performa supply chain. |
 
 ---
 
-## 💡 Solution
+## 📌 Business Problem
 
-An interactive dashboard was built using **Power BI** to transform raw supply chain data into meaningful business insights.
+Perusahaan membutuhkan dashboard yang mampu memberikan gambaran menyeluruh mengenai performa supply chain. Tanpa dashboard yang terintegrasi, perusahaan mengalami kesulitan dalam:
 
-The project includes:
-
-- Data cleaning and preprocessing using Microsoft Excel
-- Shipping delay and delivery performance calculations
-- KPI development
-- Interactive visualizations
-- Dynamic filtering using slicers
-
-The dashboard focuses on monitoring:
-
-- Sales Performance
-- Shipping Performance
-- Delivery Risk
-- Product Profitability
-- Sales Trends
+- Memantau keterlambatan pengiriman.
+- Mengevaluasi performa pengiriman berdasarkan shipping mode.
+- Mengidentifikasi wilayah dengan penjualan tertinggi.
+- Mengetahui kategori produk yang memberikan profit terbesar.
+- Menganalisis tren penjualan untuk mendukung perencanaan operasional.
 
 ---
 
-## 🛠 Tools & Technologies
+## 🎯 Project Objectives
+
+Proyek ini dikembangkan untuk:
+
+- Memonitor performa supply chain melalui KPI utama.
+- Menganalisis keterlambatan pengiriman berdasarkan shipping mode.
+- Mengidentifikasi wilayah dengan kontribusi penjualan terbesar.
+- Menganalisis profit berdasarkan kategori produk.
+- Memvisualisasikan tren penjualan bulanan.
+- Mendukung pengambilan keputusan operasional berbasis data.
+
+---
+
+## 📊 Dashboard Features
+
+Dashboard menyediakan berbagai informasi penting, antara lain:
+
+- Total Sales
+- Total Profit
+- Total Quantity
+- Average Shipping Delay
+- Late Delivery Risk
+- Late Shipment by Shipping Mode
+- Delivery Performance (On-Time vs Late)
+- Top 5 Profit by Category
+- Top 5 Sales by Region
+- Monthly Sales Trend
+- Interactive Filters (Region, Category, Shipping Mode, Shipping Performance)
+
+---
+
+## 📈 Key Insights
+
+- Dashboard mencatat **Total Sales sebesar 36.78M** dengan **Total Profit sebesar 3.97M** dan **384K** produk berhasil terjual.
+- **Standard Class** memiliki jumlah keterlambatan pengiriman tertinggi dibandingkan metode pengiriman lainnya.
+- **Western Europe** dan **Central America** merupakan wilayah dengan kontribusi penjualan terbesar.
+- Kategori **Fishing** menghasilkan profit tertinggi dibandingkan kategori produk lainnya.
+- Sebagian besar pengiriman berhasil dilakukan **On-Time**, meskipun masih terdapat pengiriman yang mengalami keterlambatan.
+- Tren penjualan bulanan menunjukkan fluktuasi yang dapat digunakan sebagai dasar evaluasi operasional dan perencanaan supply chain.
+
+---
+
+## 💡 Business Recommendations
+
+- Mengevaluasi proses pengiriman menggunakan **Standard Class** untuk mengurangi tingkat keterlambatan.
+- Mempertahankan performa penjualan di wilayah **Western Europe** dan **Central America** sekaligus meningkatkan strategi penjualan di wilayah lainnya.
+- Memprioritaskan kategori produk dengan profit tinggi sebagai fokus pengembangan bisnis.
+- Melakukan monitoring rutin terhadap performa pengiriman menggunakan dashboard agar potensi keterlambatan dapat diidentifikasi lebih awal.
+- Memanfaatkan tren penjualan bulanan sebagai dasar dalam perencanaan stok dan distribusi.
+
+---
+
+## 🛠️ Tools & Technologies
 
 - Power BI
 - Microsoft Excel
@@ -61,41 +97,9 @@ The dashboard focuses on monitoring:
 
 ---
 
-## 📊 Dashboard Features
+## 📷 Dashboard Preview
 
-### KPI Cards
-
-- 💰 Total Sales
-- 📈 Total Profit
-- 📦 Total Quantity
-- 🚚 Average Shipping Delay
-- ⚠️ Late Delivery Risk
-
-### Interactive Filters
-
-- Region
-- Product Category
-- Shipping Mode
-
-### Visualizations
-
-- Top 5 Sales by Region
-- Profit by Category
-- Late Shipment by Shipping Mode
-- Delivery Performance (On-Time vs Late)
-- Monthly Sales Trend
-
----
-
-## 📈 Key Insights
-
-- **Standard Class** records the highest number of delayed shipments.
-- **Western Europe** and **Central America** generate the highest sales performance.
-- Several product categories contribute significantly to overall profit.
-- Delivery performance can be monitored effectively by comparing **On-Time** and **Late** shipments.
-- Monthly sales trends reveal demand fluctuations that support better planning and forecasting.
-
----
+![Dashboard Preview](images/dashboard.png)
 
 ## 📷 Dashboard Preview
 
@@ -104,17 +108,3 @@ The dashboard focuses on monitoring:
 
 ---
 
-
-
-## 🚀 Business Impact
-
-This dashboard helps organizations to:
-
-- Monitor supply chain performance in real time
-- Identify shipping delays and operational bottlenecks
-- Evaluate regional sales performance
-- Analyze product profitability
-- Improve logistics efficiency
-- Support data-driven operational and strategic decisions
-
----
