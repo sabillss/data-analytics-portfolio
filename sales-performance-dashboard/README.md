@@ -60,21 +60,22 @@ Dashboard menyediakan berbagai informasi penting, antara lain:
 
 ## 📈 Key Insights
 
-- Kategori **Technology** memberikan profit tertinggi dibandingkan kategori lainnya.
-- Wilayah **West** menghasilkan profit terbesar sehingga menjadi kontributor utama terhadap keuntungan perusahaan.
-- Segmen pelanggan **Consumer** memberikan kontribusi penjualan terbesar.
-- Tren penjualan bulanan menunjukkan pertumbuhan yang relatif konsisten sepanjang periode analisis.
-- Dashboard memudahkan pengguna dalam memonitor KPI dan mengevaluasi performa penjualan berdasarkan berbagai dimensi bisnis.
+- Dashboard mencatat **Total Sales sebesar $2.296.919** dengan **Total Profit sebesar $286.409** dari **9.993 order**.
+- Profit Margin rata-rata mencapai **12%**, menunjukkan perusahaan memperoleh keuntungan dari setiap penjualan yang dilakukan.
+- Kategori **Technology** memberikan kontribusi penjualan terbesar dibandingkan kategori lainnya.
+- Wilayah **West** menghasilkan profit tertinggi dibandingkan wilayah lainnya.
+- Segmen **Consumer** memberikan kontribusi penjualan terbesar dibandingkan segmen Corporate dan Home Office.
+- Tren penjualan menunjukkan pertumbuhan yang relatif konsisten selama periode analisis.
 
 ---
 
 ## 💡 Business Recommendations
 
-- Mempertahankan strategi penjualan pada kategori **Technology** karena memberikan profit tertinggi.
-- Menjadikan performa wilayah **West** sebagai acuan untuk meningkatkan penjualan di wilayah lainnya.
-- Mengembangkan strategi pemasaran yang lebih terarah untuk meningkatkan kontribusi segmen **Corporate** dan **Home Office**.
-- Memanfaatkan tren penjualan bulanan sebagai dasar penyusunan target penjualan dan strategi promosi.
-- Menggunakan dashboard sebagai alat monitoring rutin untuk mendukung pengambilan keputusan yang lebih cepat dan berbasis data.
+- Mempertahankan strategi penjualan pada kategori **Technology** karena memberikan kontribusi penjualan terbesar.
+- Mengevaluasi strategi penjualan di wilayah dengan profit lebih rendah agar performanya meningkat.
+- Mengembangkan program loyalitas untuk mempertahankan pelanggan pada segmen **Consumer**.
+- Mengoptimalkan strategi pemasaran pada segmen **Corporate** dan **Home Office** agar kontribusi penjualan lebih seimbang.
+- Menggunakan dashboard sebagai alat monitoring rutin untuk mengevaluasi performa penjualan dan profit secara berkala.
 
 ---
 
