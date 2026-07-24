@@ -59,11 +59,11 @@ Dashboard menyediakan berbagai informasi penting, antara lain:
 
 ## 📈 Key Insights
 
-- Proses verifikasi invoice dapat dilakukan secara otomatis menggunakan **XLOOKUP** dan **IF Formula**, sehingga mengurangi kesalahan manual.
-- Dashboard membantu mengidentifikasi invoice yang belum sesuai dengan delivery order melalui status **MATCH** dan **MISMATCH**.
-- Monitoring invoice pending menjadi lebih mudah sehingga proses tindak lanjut dapat dilakukan lebih cepat.
-- Analisis tren billing bulanan memberikan gambaran mengenai performa penagihan dari waktu ke waktu.
-- Invoice dengan nilai tertinggi dapat diprioritaskan untuk proses monitoring dan verifikasi.
+- Dashboard mencatat **300 invoice** dengan total nilai billing sebesar **Rp 1.875.075.000**.
+- Sebanyak **282 invoice (94%)** berhasil terverifikasi (**MATCH**) dengan delivery order, sedangkan **18 invoice (6%)** masih berstatus **MISMATCH**.
+- Invoice bernilai tertinggi adalah **INV0001** dengan total **Rp 20.000.000**, sehingga menjadi prioritas untuk proses monitoring.
+- Tren billing bulanan menunjukkan fluktuasi nilai penagihan sepanjang tahun sehingga dapat digunakan untuk mengevaluasi performa billing setiap periode.
+- Dashboard membantu mempercepat proses rekonsiliasi invoice dan mempermudah identifikasi invoice yang memerlukan tindak lanjut.
 
 ---
 
@@ -91,16 +91,3 @@ Dashboard menyediakan berbagai informasi penting, antara lain:
 ---
 ## 📷 Dashboard Preview
 <img width="916" height="663" alt="image" src="https://github.com/user-attachments/assets/e4fdaa60-2826-4e33-bfbd-75b1fc038eb0" />
-
-
----
-## 🚀 Business Impact
-
-This dashboard helps finance and operations teams to:
-
-- Automate invoice verification and reconciliation
-- Detect invoice mismatches quickly
-- Improve billing accuracy
-- Monitor billing performance through interactive KPIs
-- Reduce manual verification time
-- Support faster financial decision-making
